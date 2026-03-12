@@ -52,6 +52,11 @@ wsl --install -d Ubuntu
 
 打开「开始菜单」→ 搜索并打开 **WSL Settings**，将网络模式从 **NAT** 改为 **Mirrored**（镜像模式）。
 
+修改后运行 
+```powershell
+wsl --shutdown
+```
+
 > 镜像模式下 WSL 可以直接共享宿主机的 VPN 网络，无需额外配置代理。
 
 ---
